@@ -1,6 +1,6 @@
 Eureka Server
 ---------------------------
-- Run EurekaServerApplication & hit http://localhost:8090/
+- Run EurekaServerApplication & hit http://localhost:8761/
 - Note below property are required apart of server.port to start eureka without error
 
 eureka.client.register-with-eureka=false  
@@ -13,7 +13,7 @@ Eureka Producer
 ---------------------------
 - Find 'Eureka-Dependencies' in pom.xml to see eureka related dependencies
 - aaplication.properties has port 8761 any other port will not work & will throw error :: Network level connection to peer localhost; retrying after delay
-
+- Running on http://localhost:8080/employee
 
 Error:: RedirectingEurekaHttpClient : Request execution error ()
 ---------------------------
